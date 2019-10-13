@@ -1,0 +1,1 @@
+print(" Krzysztof Górski, wiek - 20")
