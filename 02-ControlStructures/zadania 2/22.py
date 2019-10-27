@@ -1,10 +1,10 @@
-tab = [15, 8, 31, 47, 2, 19]
-elementy = 0
-l_el = 0
+tab=[15,8,31,47,2,19]
+suma=0
+n=0
+n=len(tab)
 for i in tab:
-    if i%2!=0:
-        elementy = elementy + i
-        l_el=l_el + 1
-        
-print(elementy/l_el)
-                
+    if i%2 != 0:
+    suma+=i
+    
+wynik=suma/n
+print(f"srednia artym wynosi {wynik}")
